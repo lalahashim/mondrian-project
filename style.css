@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    height: 600px;
+    width: 600px;
+    background-color: #1D1616;
+    gap: 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pink {
+    background-color: #BE5985;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.green {
+    background-color: #0D4715;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.orange {
+    background-color: #E9762B;
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.white1, .white2, .white3 {
+    background-color: #FAF7F0;
+}
+
